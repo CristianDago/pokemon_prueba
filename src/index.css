@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('/src/components/img/fondo.webp');
+  background-position: center;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li{
+  list-style: none;
+}
+
+.bg-azul {
+  background-color: #08214e!important;
+}
+
+.blanco {
+  color:#ffffff
+}
+
+.amarillo {
+  color:#ffcb08;
+}
+
+header {
+  background: #08214e;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+  background-image:url('/src/components/img/pokemon_go.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.list-group-flush>.list-group-item{
+  background-color: #08214e;
+  color:#ffffff;
+  border:1px #ffcb08 solid;
+}
+
